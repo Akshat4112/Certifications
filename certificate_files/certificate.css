@@ -1,0 +1,91 @@
+@media print {
+  .printbutton {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.dark-text {
+  color: #216170;
+}
+
+.light-text {
+  color: #f2e8bc;
+}
+
+body {
+  font-family: sans;
+}
+
+#container {
+  text-align: center;
+  width: 1100px;
+  height : 827px;
+  margin: 0px auto;
+  background-image: url('/modules/certificate/resources/images/npat_cert_background.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#content {
+  padding: 0px 55px;
+}
+#cert-top {
+  margin: auto;
+  height: 100px;
+  padding-top: 75px;
+  text-align: center;
+}
+#cert-top-content {
+  margin: auto;
+  margin-bottom : 25px;
+}
+#certificate-title {
+  margin: auto;
+  padding-top: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+#cert-middle {
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+}
+#student-name {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-bottom: 4px dotted;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#cert-bottom {
+  height: 360px;
+  width: 80%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  color: #f2e8bc;
+  table-layout: fixed;
+  font-size: 13px;
+}
+
+th, td {
+  text-align: center;
+  border: 2px solod;
+  background-color: #216170;
+  line-height: 200%;
+}
+
+#print-button-div {
+  text-align: center;
+  margin: 0px 30px;
+}
