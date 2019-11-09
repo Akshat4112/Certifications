@@ -1,2 +1,2 @@
-# Certifications
-Certificates of Akshat Gupta
+### Certifications
+Certificates from various MOOCS
